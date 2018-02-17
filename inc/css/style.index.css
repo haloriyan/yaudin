@@ -1,0 +1,153 @@
+body { background-color: #ecf0f1; }
+.atas {
+	position: fixed;
+	top: 0px;left: 0px;right: 0px;
+	line-height: 75px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	z-index: 1;
+}
+.judul {
+	font-size: 36px;
+	margin: 0;
+	font-family: Billabong;
+	float: left;
+	margin-left: 15%;
+}
+.pencarian {
+	float: left;
+	width: 49%;
+	text-align: center;
+}
+.pencarian .box {
+	width: 25%;
+	height: 30px;
+	font-size: 18px;
+}
+#xCari {
+	background: none;
+	border: none;
+	color: #444;
+	cursor: pointer;
+	margin-left: -30px;
+}
+.menu {
+	float: right;
+	margin-right: 15%;
+	position: relative;
+	top: 8px;
+}
+.menu a {
+	color: #ddd;
+	text-decoration: none;
+}
+.menu li {
+	list-style: none;
+	float: left;
+	margin-left: 56px;
+}
+#explore { margin-left: 0px; }
+.menu li i { font-size: 31px; }
+.container {
+	position: absolute;
+	top: 135px;left: 15%;
+	width: 45%;
+}
+.pos {
+	background-color: #fff;
+	margin-bottom: 30px;
+	color: #333;
+	border: 1px solid #ccc;
+}
+.atasPos {
+	height: 47px;
+	border-bottom: 1px solid #ccc;
+	padding-top: 16px;
+}
+.atasPos img {
+	width: 35px;
+	height: 35px;
+	border-radius: 33px;
+	float: left;
+	margin-left: 5%;
+}
+.atasPos h4 {
+	float: left;
+	margin: 0;
+	margin-top: 3px;
+	margin-left: 5%;
+	font-size: 20px;
+	font-family: OBold;
+}
+.konten img {
+	width: 100%;
+	height: auto;
+}
+.react button {
+	width: 50px;
+	height: 50px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 23px;
+}
+button#like { margin: 0px 2.5% 0% 5%; }
+.kanan {
+	position: fixed;
+	top: 135px;right: 15%;
+	width: 23%;
+}
+#profil {
+	background-color: #fff;
+	box-shadow: 1px 6px 6px #ccc;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	height: 56px;
+}
+#profil img {
+	width: 55px;
+	height: 55px;
+	border-radius: 55px;
+	margin-left: 10%;
+	float: left;
+}
+#profil h4 {
+	float: left;
+	margin: 0;
+	margin-top: 13px;
+	margin-left: 5%;
+	color: #444;
+	font-size: 22px;
+}
+.hasilCari {
+	position: fixed;
+	top: 75px;left: 32.6%;
+	width: 25%;
+	z-index: 1;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-top: none;
+	color: #444;
+	max-height: 300px;
+	overflow: auto;
+	display: none;
+}
+.hasil {
+	height: 60px;
+}
+.hasil img {
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 8px;
+}
+.hasil h4 {
+	font-size: 16px;
+	margin: 0;
+	float: left;
+	margin-left: 5%;
+	margin-top: 14px;
+}

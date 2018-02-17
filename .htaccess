@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^my/(.*?)$ lib/profile.php?user=$1 [L]
+RewriteRule ^pos/(.*?)$ lib/pos.php?id=$1 [L]
