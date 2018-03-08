@@ -17,7 +17,7 @@ body { background-color: #ecf0f1; }
 }
 .pencarian {
 	float: left;
-	width: 49%;
+	width: 48%;
 	text-align: center;
 }
 .pencarian .box {
@@ -119,16 +119,22 @@ body { background-color: #ecf0f1; }
 	font-size: 23px;
 }
 button#like { margin: 0px 2.5% 0% 5%; }
+.ketLike {
+	font-size: 15px;
+	margin-left: 5%;
+	font-family: OBold;
+}
 .kiriman {
 	position: absolute;
-	top: 135px;left: 15%;
+	top: 115px;left: 15%;
 	width: 45%;
 	margin-bottom: 20px;
 }
 .kanan {
 	position: fixed;
-	top: 135px;left: 60%;right: 15%;
+	top: 115px;left: 60%;right: 15%;
 	background-color: #fff;
+	height: 495px;
 	color: #444;
 	border: 1px solid #ccc;
 	border-left: none;
@@ -137,8 +143,12 @@ button#like { margin: 0px 2.5% 0% 5%; }
 	line-height: 30px;
 	font-family: OLight;
 }
+.content a,.komentar a {
+	text-decoration: none;
+	color: #444;
+}
 .komentar {
-	max-height: 285px;
+	max-height: 274px;
 	overflow: auto;
 }
 .komentar div {

@@ -17,7 +17,7 @@ body { background-color: #ecf0f1; }
 }
 .pencarian {
 	float: left;
-	width: 49%;
+	width: 48%;
 	text-align: center;
 }
 .pencarian .box {
@@ -84,6 +84,7 @@ body { background-color: #ecf0f1; }
 	position: absolute;
 	top: 110px;left: 15%;right: 15%;
 	background-color: #fff;
+	border: 1px solid #ccc;
 	height: 300px;
 }
 .profile .wrap { margin-left: 15%;margin-right: 15%; }
@@ -126,10 +127,110 @@ body { background-color: #ecf0f1; }
 	top: 445px;left: 15%;right: 15%;
 }
 .pos {
-	width: 33%;
+	width: 31.77%;
 	display: inline-block;
+	margin: 4px 12px;
 }
 .pos img {
 	width: 100%;
 	height: 300px;
+}
+#sudahFollow,#pengaturan {
+	background-color: #fff;
+	border: 2px solid #999;
+}
+#addPos {
+	position: fixed;
+	bottom: 55px;right: 3.5%;
+	width: 60px;
+	height: 60px;
+	border: none;
+	border-radius: 65px;
+	font-size: 17px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.opsiSetting {
+	position: fixed;
+	top: 165px;left: 25%;
+	width: 50%;
+	z-index: 11;
+	display: none;
+}
+.opsiSetting a { text-decoration: none;color: #444; }
+.opsiSetting div {
+	background-color: #fff;
+	color: #444;
+	line-height: 90px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	font-size: 23px;
+	font-family: OLight;
+}
+.atas.mobile { display: none; }
+.controls { display: none; }
+@media (max-width: 480px) {
+	.atas { display: none; }
+	.mobile { display: block; }
+	.atas.mobile {
+		position: fixed;
+		top: 0px;left: 0px;right: 0px;
+		line-height: 60px;
+		display: block;
+	}
+	.atas.mobile .judul {
+		width: 100%;
+		margin: 0;
+	}
+	.container {
+		width: 90%;
+		left: 5%;top: 90px;
+	}
+	.controls {
+		display: block;
+		position: fixed;
+		bottom: 0px;left: 0px;right: 0px;
+		line-height: 50px;
+		border-top: 1px solid #ccc;
+		display: block;
+		background-color: #fff;
+		z-index: 3;
+	}
+	.controls a {
+		color: #aaa;
+		text-decoration: none;
+	}
+	.controls a#active { color: #3498db; }
+	.controls li {
+		float: left;
+		width: 20%;
+		text-align: center;
+		list-style: none;
+		font-size: 25px;
+	}
+	.profile {
+		left: 7.5%;right: 7.5%;
+		top: 80px;
+		height: 340px;
+		padding-top: 20px;
+	}
+	.pos {
+		width: 100%;
+		display: block;
+	}
+	.profile .kiri img {
+		width: 90px;
+		height: 90px;
+	}
+	.profile .wrap { margin-left: 5%;margin-right: 5%; }
+	.profile .kanan h3 button { width: 120px; }
+	.profile > div > div {
+		float: none;
+		text-align: center;
+		width: 100%;
+		margin: 0;
+	}
+	.profile .kanan { margin-left: 0px;margin-right: 0px; }
+	.kanan .detail div { margin: 1px 12px; }
+	.kiriman { top: 484px;padding-bottom: 36px; }
 }

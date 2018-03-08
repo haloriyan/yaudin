@@ -2,3 +2,10 @@ RewriteEngine On
 
 RewriteRule ^my/(.*?)$ lib/profile.php?user=$1 [L]
 RewriteRule ^pos/(.*?)$ lib/pos.php?id=$1 [L]
+RewriteRule ^hashtag/(.*?)$ lib/hashtag.php?tag=$1 [L]
+
+RewriteRule ^auth$ lib/auth.php [L]
+RewriteRule ^logout$ lib/logout.php [L]
+RewriteRule ^pengaturan$ lib/pengaturan.php [L]
+
+RewriteRule ^mobile/cari$ lib/mobile/cari.php [L]

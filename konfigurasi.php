@@ -5,9 +5,7 @@
 $db['host'] = "localhost";
 $db['user'] = "root";
 $db['pass'] = "";
-$db['namaDb'] = "toko";
+$db['namaDb'] = "ig";
 
 ## KONFIGURASI TOKO
-
-$konfig['nama_toko'] = "Laziza";
-$konfig['url_toko'] = "http://localhost/toko";
+$konfig['url'] = "http://localhost/ig";

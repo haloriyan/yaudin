@@ -1,0 +1,26 @@
+body { background-color: #ecf0f1; }
+.container {
+	position: absolute;
+	top: 40px;left: 32.5%;
+	width: 35%;
+}
+#bagLogin,#bagRegist {
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+#login,#register {
+	padding: 0;
+	font-size: 19px;
+	height: 38px;
+}
+.box {
+	width: 87%;
+}
+@media (max-width: 480px) {
+	.container {
+		width: 90%;
+		left: 5%;
+	}
+	#bagLogin,#bagRegist { padding-bottom: 20px;margin-bottom: 25px; }
+	.box { width: 81%; }
+}

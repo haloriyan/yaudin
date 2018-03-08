@@ -17,7 +17,7 @@ body { background-color: #ecf0f1; }
 }
 .pencarian {
 	float: left;
-	width: 49%;
+	width: 48%;
 	text-align: center;
 }
 .pencarian .box {
@@ -59,6 +59,10 @@ body { background-color: #ecf0f1; }
 	margin-bottom: 30px;
 	color: #333;
 	border: 1px solid #ccc;
+}
+.pos a {
+	color: #444;
+	text-decoration: none;
 }
 .atasPos {
 	height: 47px;
@@ -133,6 +137,7 @@ button#like { margin: 0px 2.5% 0% 5%; }
 	overflow: auto;
 	display: none;
 }
+.hasilCari a { color: #444; }
 .hasil {
 	height: 60px;
 }
@@ -150,4 +155,47 @@ button#like { margin: 0px 2.5% 0% 5%; }
 	float: left;
 	margin-left: 5%;
 	margin-top: 14px;
+}
+.mobile,.controls { display: none; }
+@media (max-width: 480px) {
+	.atas { display: none; }
+	.mobile { display: block; }
+	.atas.mobile {
+		position: fixed;
+		top: 0px;left: 0px;right: 0px;
+		line-height: 60px;
+	}
+	.atas.mobile .judul {
+		width: 100%;
+		margin: 0;
+	}
+	.kanan {
+		display: none;
+	}
+	.container {
+		width: 90%;
+		left: 5%;top: 90px;
+		padding-bottom: 39px;
+	}
+	.controls {
+		position: fixed;
+		bottom: 0px;left: 0px;right: 0px;
+		line-height: 50px;
+		border-top: 1px solid #ccc;
+		display: block;
+		background-color: #fff;
+		z-index: 3;
+	}
+	.controls a {
+		color: #aaa;
+		text-decoration: none;
+	}
+	.controls a#active { color: #3498db; }
+	.controls li {
+		float: left;
+		width: 20%;
+		text-align: center;
+		list-style: none;
+		font-size: 25px;
+	}
 }

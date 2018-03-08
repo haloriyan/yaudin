@@ -1,0 +1,37 @@
+body { background-color: #ecf0f1; }
+.atas {
+	position: fixed;
+	top: 0px;left: 0px;right: 0px;
+	line-height: 75px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	z-index: 1;
+}
+.judul {
+	font-size: 36px;
+	margin: 0;
+	font-family: Billabong;
+	float: left;
+	margin-left: 15%;
+}
+.atas .tngh {
+	float: left;
+	width: 58%;
+	font-size: 25px;
+}
+.container {
+	position: absolute;
+	top: 155px;left: 15%;right: 15%;
+	color: #444;
+}
+.pos {
+	width: 31.95%;
+	height: 300px;
+	display: inline-block;
+	margin: 1px 5px;
+}
+.pos img {
+	width: 100%;
+	height: 100%;
+}
